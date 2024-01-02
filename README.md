@@ -1,1 +1,1 @@
-# Django_with_AI_Model_Integration_Decision-Tree
+# Django with AI Model Integration Decision-Tree
