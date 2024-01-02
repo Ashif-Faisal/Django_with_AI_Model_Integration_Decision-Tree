@@ -3,4 +3,4 @@
 ## Algorithm: Decision Tree
 
 # About Project
-### Predicting whether a customer will purchase a facewash using a Django web portal
+-> Predicting whether a customer will purchase a facewash using a Django web portal
