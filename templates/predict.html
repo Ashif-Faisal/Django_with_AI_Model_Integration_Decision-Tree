@@ -1,0 +1,43 @@
+
+</body>
+  <h2>Buyer Information</h2>
+  
+  <form action="" method="post">
+    {% csrf_token %}
+
+    <label for="age"><B>Age:</B></label>
+    <input type="radio" id="lower25" name="age" value="1">
+    <label for="lower25">Lower 25</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="25to35" name="age" value="0">
+    <label for="25to35">25 to 35</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="above35" name="age" value="2">
+    <label for="above35">Above 35</label><br><br>
+    
+    <label for="income"><B>Income:</B></label>
+    <input type="radio" id="high" name="income" value="0">
+    <label for="high">High</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="medium" name="income" value="2">
+    <label for="medium">Medium</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="low" name="income" value="1">
+    <label for="low">Low</label><br><br>
+
+    <label for="gender"><B>Gender:</B></label>
+    <input type="radio" id="male" name="gender" value="1">
+    <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="female" name="gender" value="0">
+    <label for="female">Female</label><br><br>
+
+    <label for="m_status"><B>Marital Status: </B></label>
+    <input type="radio" id="married" name="m_status" value="1">
+    <label for="married">Married</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" id="unmarried" name="m_status" value="0">
+    <label for="m_status">Unmarried</label><br><br>
+
+    <input type="submit" value="Submit">
+  
+  </form>
+
+
+
+</body>
+
